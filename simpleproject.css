@@ -1,0 +1,155 @@
+/*** Common CSS ***/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.conteiner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+.firstcontent{
+    width: 48%;
+    float: left;
+    overflow: hidden;
+    padding: 0 12px;
+}
+
+.highlighted{
+    color: #2258CB;
+}
+
+/*** Header area ***/
+nav ul{
+    text-align: right;
+    padding: 30px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu a{
+    padding: 0 5px;
+    color: rgb(97, 89, 89);
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+}
+.firstcontent img{
+    margin-top: 9px;
+    border-radius: 5px;
+}
+
+
+/*** First section area ***/
+.first h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.first p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 32px 0;
+}
+.button{
+    color: white;
+    background-color: #2258CB;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 5px;
+    position: absolute;
+    top: 477px;
+    right: 82px;
+    transition: 1s;
+}
+/*** 2nd Section ***/
+h2{
+    display: inline-block;
+    font-size: 45px;
+    margin-top: 150px;
+}
+/*** projects ***/
+
+.secondsection .project{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    margin-top: 50px;
+    padding: 0 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgb(104, 98, 98);
+    transition: 1s;
+}
+.secondsection img{
+    height: 250px;
+}
+.secondsection h4{
+    margin: 12px 0;
+    font-size: 18px;
+}
+.secondsection p{
+    text-align: justify;
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/*** third section ***/
+h3{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(97, 89, 89);
+    margin-top: 7%;
+    margin-bottom: 10%;
+    padding-right: 60px;
+}
+.thirdsec .register{
+    color: white;
+    background-color: #2258CB;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.learnmore{
+    color: red;
+}
+
+/*** Hover Section ***/
+
+.menu a:hover{
+    
+    color: rgb(25, 133, 127);
+    font-size: 25px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: #39538d;
+}
+
+.button:hover{
+    background-color: #000000;
+}
+
+.thirdsec .register:hover{
+    background-color: #000000;
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    background-color: rgb(236, 216, 199);
+    width: 90%;
+    margin: 0 auto;
+}
+.amnei{
+    width: 100%;
+    height: 140px;
+    background-color: tomato;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    transition: 1s;
+}
+.normal{
+    color: white;
+    transition: 1s;
+}
+.highlighted{
+    color:  #373a41;
+    transition: 1s;
+}
+div h1{
+    padding: 33px;
+}
+.form{
+    width: 90%;
+    margin: 0 auto;
+}
+table input{
+    border-radius: 5px;
+}
+.register{
+    color: white;
+    background-color: tomato;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 5px;
+    transition: 1s;
+}
+:placeholder-shown{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    padding: 10px;
+}
+textarea{
+    border-radius: 5px;
+}
+/*** hover section ***/
+
+.highlighted:hover{
+    color: white;
+    cursor: pointer;
+}
+.normal:hover{
+    color: #373a41;
+    cursor: pointer;
+}
+.amnei:hover{
+    background-color: turquoise;
+}
+.register:hover{
+    background-color: turquoise;
+}
