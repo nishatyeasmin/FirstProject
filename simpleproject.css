@@ -12,17 +12,11 @@ a{
 .conteiner{
     width: 90%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 img{
     width: 100%;
-}
-
-.firstcontent{
-    width: 48%;
-    float: left;
-    overflow: hidden;
-    padding: 0 12px;
 }
 
 .highlighted{
@@ -32,7 +26,7 @@ img{
 /*** Header area ***/
 nav ul{
     text-align: right;
-    padding: 30px;
+    margin: 30px 0;
 }
 
 .menu li{
@@ -46,22 +40,31 @@ nav ul{
     font-weight: bold;
     transition: 1s;
 }
-.firstcontent img{
-    margin-top: 9px;
-    border-radius: 5px;
-}
-
 
 /*** First section area ***/
+.firstcontento, .firstcontentt{
+    width: 48%;
+}
+.firstcontento{
+    margin-right: 15px;
+    margin-top: 11px;
+    float: left;
+}
+.firstcontentt{
+    overflow: hidden;
+}
+
 .first h1{
     font-size: 50px;
     text-transform: capitalize;
 }
+
 .first p{
     font-size: 20px;
     text-align: justify;
     line-height: 28px;
-    margin: 32px 0;
+    margin-top: 32px;
+    margin-bottom: 12%;
 }
 .button{
     color: white;
@@ -70,17 +73,22 @@ nav ul{
     font-weight: bold;
     padding: 15px 25px;
     border-radius: 5px;
-    position: absolute;
-    top: 477px;
-    right: 82px;
+    margin-left: 75%;
     transition: 1s;
+
 }
+
 /*** 2nd Section ***/
+
+
 h2{
     display: inline-block;
     font-size: 45px;
-    margin-top: 150px;
+    margin-top: 110px;
+    margin-left: 40%;
+    text-align: center;
 }
+
 /*** projects ***/
 
 .secondsection .project{
@@ -116,6 +124,7 @@ h3{
     margin-bottom: 10%;
     padding-right: 60px;
 }
+
 .thirdsec .register{
     color: white;
     background-color: #2258CB;
@@ -136,8 +145,6 @@ h3{
     
     color: rgb(25, 133, 127);
     font-size: 25px;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .project:hover{
